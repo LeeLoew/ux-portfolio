@@ -1,85 +1,136 @@
 /* General Styles */
 body {
   font-family: 'Arial', sans-serif;
-  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f9;
   margin: 0;
   padding: 0;
-  color: #333;
+  line-height: 1.6;
 }
 
-header {
-  background: #007acc;
-  padding: 1rem;
-  color: white;
-}
-
+/* Navbar Styles */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
 .nav-links {
   list-style: none;
-  display: flex;
-  gap: 1rem;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
 }
 
 .nav-links a {
-  color: white;
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
+.nav-links a:hover {
+  color: #f4f4f9;
+}
+
+/* Hero Section */
 .hero-section {
+  background-color: #333;
+  color: #fff;
+  padding: 100px 20px;
   text-align: center;
-  padding: 3rem 1rem;
-  background: #f4f4f4;
 }
 
 .hero-section h1 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
 }
 
 .hero-section p {
-  margin: 1rem 0;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .btn {
-  display: inline-block;
-  background: #007acc;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px 20px;
   text-decoration: none;
-  margin-top: 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .btn:hover {
-  background: #005b99;
+  background-color: #ff3b2f;
 }
 
+/* Section Styles */
 section {
-  padding: 2rem 1rem;
+  padding: 60px 20px;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: white;
+h2 {
+  color: #222;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
-.testimonial {
-  background: #f9f9f9;
-  padding: 1rem;
-  border-left: 4px solid #007acc;
-  margin-bottom: 1rem;
+p, ul {
+  color: #555;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Tools Grid */
 .tools-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
+  gap: 20px;
+}
+
+.tool {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
   text-align: center;
+  border-radius: 5px;
+}
+
+/* Testimonials */
+.testimonial {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ff6f61;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ff3b2f;
 }
