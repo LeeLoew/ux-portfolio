@@ -1,11 +1,32 @@
 /* General Styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
   color: #f4f4f9;
   background-color: #000;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p, ul {
+  font-size: 1.1em;
 }
 
 /* Navbar Styles */
